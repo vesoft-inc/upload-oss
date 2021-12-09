@@ -31,7 +31,7 @@ Upload files to oss of aliyun
 ## Example usage
 
 ```yaml
-uses: nebula-actions/upload-oss
+uses: vesoft-inc/upload-oss
 with:
     key-id: ${{ secrets.OSS_ID }}
     key-secret: ${{ secrets.OSS_SECRET }}
